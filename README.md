@@ -22,10 +22,11 @@ Good luck and have fun!
 # NARZĘDZIA
 1. https://openai.com/api/
 2. https://streamlit.io/
+3. https://openai.com/blog/dall-e/
 
 # POMYSŁY
 1. prompty do przygód D&D np. w apce piszesz o co Ci chodzi jak w sensie klimat, jaki lvl postaci itd. a sama apka wrzuca to co napisales do dobrze sformułowanego zdania które przekazuje do GPT-3.
-2. Paragrafówka?
+2. Paragrafówka wraz z jakimś narzędziem do generowania grafik. Piszesz co robisz a apka generuje Ci tekst i grafikę. Może odgórnie ustalić/dać do wyboru klimat. 
 
 # NATCHNIENIA
 1. https://play.aidungeon.io/main/home
