@@ -26,3 +26,6 @@ Good luck and have fun!
 # POMYSŁY
 1. prompty do przygód D&D np. w apce piszesz o co Ci chodzi jak w sensie klimat, jaki lvl postaci itd. a sama apka wrzuca to co napisales do dobrze sformułowanego zdania które przekazuje do GPT-3.
 2. Paragrafówka?
+
+# NATCHNIENIA
+1. https://play.aidungeon.io/main/home
