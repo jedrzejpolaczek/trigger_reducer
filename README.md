@@ -1,4 +1,4 @@
-# ZADANIE 
+# TASK
 Signup on beta.openai.com to get GPT-3 access.
 
 Utilizing https://streamlit.io/ or other preferred framework, build a simple GPT-3 based app to impress us with.
@@ -19,27 +19,18 @@ Preferred timeline for completion is about 48hrs. As stated if you cannot make t
 
 Good luck and have fun!
 
-# NARZĘDZIA
+# CONCEPT
+1. Get the link to article.
+2. Web Scraping news articles from link in Python 
+* We will try: https://towardsdatascience.com/web-scraping-news-articles-in-python-9dd605799558 
+* Ideal approach: we should try use hidden Markov models.
+4. Run OpenAI GPT-3 Davinci model on text using prompt
+* For list of triggers `List trigger warnings from text "{ARTICLE}"`
+* For summary `Analyze text "{ARTICLE}" and answer on question "{HEADLINE}”`
+* NOTE: Use GPT-3 Davinci model https://beta.openai.com/docs/models/content-filter
+5. Display triggers and button to show summary of the article
+6. After clicking "show summary" button show summary of article.
+
+# TOOLSET
 1. https://openai.com/api/
 2. https://streamlit.io/
-3. https://openai.com/blog/dall-e/
-
-# KONCEPT
-postawić jakiś backend, postawić jakiś prosty frontend, jakąś bazę danych
-
-# POMYSŁY
-1. prompty do przygód D&D np. w apce piszesz o co Ci chodzi jak w sensie klimat, jaki lvl postaci itd. a sama apka wrzuca to co napisales do dobrze sformułowanego zdania które przekazuje do GPT-3.
-2. Paragrafówka wraz z jakimś narzędziem do generowania grafik. Piszesz co robisz a apka generuje Ci tekst i grafikę. Może odgórnie ustalić/dać do wyboru klimat. 
-3. Podpowiadator jak napisać coś bardziej/mniej formalnie itd.
-4. Narzędzie podsumowujące (może pomoc w ogarnianiu co ja chce powiedzieć?), może filmik z YT? Może teks w gazecie? 
-5. Może taki addon do przeglądarki który będzie Ci podsumowywał treści artykułów? Prompt `Analyze text "{TEKST ARTYKUŁU}" and answer on question "{NAGŁÓWEK}”` moduł https://beta.openai.com/docs/models/content-filter
-6.
-
-HINTY:
-Davinci: Complex intent, cause and effect, summarization for audience
-Curie: Language translation, complex classification, text sentiment, summarization
-Babbage: Moderate classification, semantic search classification
-Ada: Parsing text, simple classification, address correction, keywords
-
-# NATCHNIENIA
-1. https://play.aidungeon.io/main/home
