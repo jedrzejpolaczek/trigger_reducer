@@ -32,7 +32,8 @@ postawić jakiś backend, postawić jakiś prosty frontend, jakąś bazę danych
 2. Paragrafówka wraz z jakimś narzędziem do generowania grafik. Piszesz co robisz a apka generuje Ci tekst i grafikę. Może odgórnie ustalić/dać do wyboru klimat. 
 3. Podpowiadator jak napisać coś bardziej/mniej formalnie itd.
 4. Narzędzie podsumowujące (może pomoc w ogarnianiu co ja chce powiedzieć?), może filmik z YT? Może teks w gazecie? 
-5. Może taki addon do przeglądarki który będzie Ci podsumowywał treści artykułów? https://beta.openai.com/docs/models/content-filter
+5. Może taki addon do przeglądarki który będzie Ci podsumowywał treści artykułów? Prompt `Analyze text "{TEKST ARTYKUŁU}" and answer on question "{NAGŁÓWEK}”` moduł https://beta.openai.com/docs/models/content-filter
+6.
 
 HINTY:
 Davinci: Complex intent, cause and effect, summarization for audience
