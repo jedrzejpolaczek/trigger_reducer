@@ -1,4 +1,3 @@
-import os
 import openai
 
 
@@ -40,12 +39,13 @@ def get_triggers(article_text: str) -> str:
         model="text-davinci-002",
         prompt=generate_triggers_prompt(article_text),
         temperature=0.6,
-        top_p=1.0,
         frequency_penalty=0.0,
         presence_penalty=0.0
     )
+
+    triggers = response.choices[0].text
     
-    return response.choices[0].text
+    return triggers
 
 
 def get_summary(article_text: str) -> str:
@@ -60,12 +60,35 @@ def get_summary(article_text: str) -> str:
         model="text-davinci-002",
         prompt=generate_summary_prompt(article_text),
         temperature=0.6,
-        top_p=1.0,
         frequency_penalty=0.0,
         presence_penalty=0.0
     )
 
-    return response.choices[0].text
+    summary = response.choices[0].text
+
+    return summary
+
+
+def get_question(article_text: str, question: str) -> str:
+    """
+    Create answer for the question to article.
+
+    article_text (str): article to be parsed to create summary of it.
+    question (str): question to the article.
+    
+    return (str): answer to the question to article.
+    """
+    response = openai.Completion.create(
+        model="text-davinci-002",
+        prompt=generate_question_prompt(article_text, question),
+        temperature=0.6,
+        frequency_penalty=0.0,
+        presence_penalty=0.0
+    )
+
+    summary = response.choices[0].text
+
+    return summary
 
 
 def generate_triggers_prompt(article_text: str) -> str:
@@ -74,7 +97,7 @@ def generate_triggers_prompt(article_text: str) -> str:
 
     article_text (str): article to be parsed to see if it contain any triggers.
     
-    return (str): prompt for getting triggers warnins from passed article.
+    return (str): prompt for getting triggers warnings from passed article.
     """
     return "List trigger warnings for text: {}".format(article_text)
 
@@ -85,6 +108,18 @@ def generate_summary_prompt(article_text: str) -> str:
 
     article_text (str): article to be parsed to create summary of it.
     
-    return (str): prompt for getting triggers warnins from passed article.
+    return (str): prompt for getting summary of article.
     """
-    return "In max 3 sentences sum up the text: {}".format(article_text)
+    return "{} Tl;dr".format(article_text)
+
+
+def generate_question_prompt(article_text: str, question: str) -> str:
+    """
+    Generate prompt for anwering question to article.
+
+    article_text (str): article to be parsed to create summary of it.
+    question (str): question to the article.
+    
+    return (str): prompt for answer to the question to article.
+    """
+    return "Analyze text {} and answer question {}".format(article_text, question)
