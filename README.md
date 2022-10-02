@@ -18,7 +18,7 @@
 2. https://streamlit.io/
 
 # THOUGHTS
-## What was your thought process behind creating the application?
+## What was my thought process behind creating the application?
 0. (in bacground): brainstorming all the time and writing down all ideas.
 1. Read what about OpenAI.
 2. See examples of usage of OpenAI on OpenAI website.
@@ -37,10 +37,11 @@
 15. Test app "module" code.
 16. Test if "modules" works together.
 
-## What are your views on GPT-3, Codex and other modern AI technologies?
+## What is my views on GPT-3, Codex and other modern AI technologies?
 Nice and useful "toy". Do not get me wrong. I am splitting ideas into "toys" and "breakthroughs". Like steam engines where "breakthroughs" and all technology based on them are "toys". For sure will be soon outdated if Yann Lecun has wright (his new papers from June 27, 2022).
 GPT-3 is one of the tools that bring joy to using technology and create this "need" to know how it works. For me it showed how much more I have to learn about AI. I only have generall idea how it work but I would need many days of full-time-job work to write something simillar.
-## What was the biggest challenge in this task for you?
+
+## What was the biggest challenge in this task for me?
 Time management (but for whom it isn't for work/fun after hours?), beside it finding a good (and free) web scraper.
 
 ## Conclusion
