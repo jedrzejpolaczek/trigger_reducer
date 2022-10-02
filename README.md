@@ -62,4 +62,7 @@ Good luck and have fun!
 Nice and useful "toy". Do not get me wrong. I am splitting ideas into "toys" and "breakthroughs". Like steam engines where "breakthroughs" and all technology based on them are "toys". For sure will be soon outdated if Yann Lecun has wright (his new papers from June 27, 2022).
 GPT-3 is one of the tools that bring joy to using technology and create this "need" to know how it works. For me it showed how much more I have to learn about AI. I only have generall idea how it work but I would need many days of full-time-job work to write something simillar.
 ## What was the biggest challenge in this task for you?
-Time management. It is work after hours with a baby on board so sometimes I just slept in the chair but this is how life works. Still worth it, it was fun and gave some ideas for the future. Probably to finish this app as an addon.
+Time management (but for whom it isn't for work/fun after hours?), beside it finding a good (and free) web scraper.
+
+## Conclusion
+Still worth it, it was fun and gave some ideas for the future. Probably to finish this app as an addon.

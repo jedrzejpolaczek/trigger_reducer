@@ -19,17 +19,13 @@ def get_article_triggers_and_summary(article_text: str, open_ai_api_key: str) ->
     return triggers, summary
 
 
-def api_key_login(open_api_key: str=None, from_file: bool=False) -> None:
+def api_key_login(open_api_key: str) -> None:
     """ 
     Guard function to not passing anyone who do not pass his own OpenAI API key. 
     
     open_api_key (str): openAI API key.
-    from_file (bool): flag if we want to read openAI API key from file.
     """
-    if from_file:
-        openai.api_key = os.getenv("OPENAI_API_KEY")
-    else:
-        openai.api_key = open_api_key
+    openai.api_key = open_api_key
 
 
 def get_triggers(article_text: str) -> str:

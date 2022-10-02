@@ -3,3 +3,4 @@ trigger_reducer_venv/*
 .env
 __pycache__/*
 __pycache__
+notes.txt
