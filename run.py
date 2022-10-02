@@ -26,7 +26,7 @@ def run_app():
     if streamlit.button("SHOW SUMMARY"):
         streamlit.write("SUMMARY:")
         streamlit.write(summary)
-    question = streamlit.text_input("Question to article", "What happened?")
+    question = streamlit.text_input("Question to article", "What is the meaning of life?")
     if question[-1] != "?":
         question = question + "?"
     streamlit.write("ANSWER:")
