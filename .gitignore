@@ -1,2 +1,5 @@
-trigger_reducer
-trigger_reducer/*
+trigger_reducer_venv
+trigger_reducer_venv/*
+.env
+__pycache__/*
+__pycache__
