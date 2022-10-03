@@ -23,6 +23,9 @@ https://jedrzejpolaczek-trigger-reducer-run-pw2f8p.streamlitapp.com/
 ## OpenAI API key generator
 https://beta.openai.com/account/api-keys
 
+## Link to Fox13 news website
+https://www.fox13now.com
+
 # THOUGHTS
 ## What was my thought process behind creating the application?
 0. (in bacground): brainstorming all the time and writing down all ideas.
