@@ -20,6 +20,9 @@
 # APP URL
 https://jedrzejpolaczek-trigger-reducer-run-pw2f8p.streamlitapp.com/
 
+## OpenAI API key generator
+https://beta.openai.com/account/api-keys
+
 # THOUGHTS
 ## What was my thought process behind creating the application?
 0. (in bacground): brainstorming all the time and writing down all ideas.

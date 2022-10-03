@@ -21,15 +21,16 @@ def run_app():
         for trigger in triggers.split("-"):
             if len(trigger) > 2:
                 streamlit.write("- " + trigger)
+        question = streamlit.text_input("Question to article")
+        if question:
+            if question[-1] != "?":
+                question = question + "?"
+            streamlit.write("ANSWER:")
+            answer = get_question(article_text, question)
+            streamlit.write(answer)
         if streamlit.button("SHOW SUMMARY"):
             streamlit.write("SUMMARY:")
             streamlit.write(summary)
-        question = streamlit.text_input("Question to article", "What is the meaning of life?")
-        if question[-1] != "?":
-            question = question + "?"
-        streamlit.write("ANSWER:")
-        answer = get_question(article_text, question)
-        streamlit.write(answer)
 
 
 run_app()
