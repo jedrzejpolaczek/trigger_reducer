@@ -17,6 +17,9 @@
 1. https://openai.com/api/
 2. https://streamlit.io/
 
+# APP URL
+https://jedrzejpolaczek-trigger-reducer-run-pw2f8p.streamlitapp.com/
+
 # THOUGHTS
 ## What was my thought process behind creating the application?
 0. (in bacground): brainstorming all the time and writing down all ideas.
