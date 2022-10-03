@@ -27,7 +27,7 @@ https://beta.openai.com/account/api-keys
 https://www.fox13now.com
 
 # THOUGHTS
-## What was my thought process behind creating the application?
+## Thought process behind creating the application
 ### More general
 I thought about problems of every people (I am one of them after all!) that can be solved "pro bono".
 ### In details
@@ -49,11 +49,11 @@ I thought about problems of every people (I am one of them after all!) that can 
 15. Test app "module" code.
 16. Test if "modules" works together.
 
-## What is my views on GPT-3, Codex and other modern AI technologies?
+## Thoughts about GPT-3
 Nice and useful "toy". Do not get me wrong. I am splitting ideas into "toys" and "breakthroughs". Like steam engines where "breakthroughs" and all technology based on them are "toys". For sure will be soon outdated if Yann Lecun has wright (his new papers from June 27, 2022).
 GPT-3 is one of the tools that bring joy to using technology and create this "need" to know how it works. For me it showed how much more I have to learn about AI. I only have generall idea how it work but I would need many days of full-time-job work to write something simillar.
 
-## What was the biggest challenge in this task for me?
+## Main challenge
 Time management (but for whom it isn't for work/fun after hours?), beside it finding a good (and free) web scraper.
 
 ## Conclusion
