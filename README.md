@@ -28,6 +28,9 @@ https://www.fox13now.com
 
 # THOUGHTS
 ## What was my thought process behind creating the application?
+### More general
+I thought about problems of every people (I am one of them after all!) that can be solved "pro bono".
+### In details
 0. (in bacground): brainstorming all the time and writing down all ideas.
 1. Read what about OpenAI.
 2. See examples of usage of OpenAI on OpenAI website.
