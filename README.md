@@ -29,7 +29,8 @@ https://www.fox13now.com
 # THOUGHTS
 ## Thought process behind creating the application
 ### More general
-After read and play with news technology/idea I brainstorm a little bit. After that I starter to "thinkn in the background" on the problems I am aprroching on life for example I am getting up and browse the news. In the background I am still hyped on new technologie so ideas how this technology can be used, to what I am currently doing, naturalny pop up.
+After reading and playing with new technology/ideas I brainstorm a little bit. After that, I start to "think in the background" about the problems I am approaching in life. In these case, I get up and browse the news. In the background, I am still hyped on the new technology so ideas about how this technology can be used, to what I am currently doing, naturally pop up. 
+In this way idea of an open source free pop-up to help us filter information... popped up!
 ### In details
 0. (in bacground): brainstorming all the time and writing down all ideas.
 1. Read what about OpenAI.
