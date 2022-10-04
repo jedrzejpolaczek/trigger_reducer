@@ -29,9 +29,7 @@ https://www.fox13now.com
 # THOUGHTS
 ## Thought process behind creating the application
 ### More general
-Due to my ADHD it's hard to describe Thought process. Is mamy od them first and ideas poping like  bubbles in soda but how bubbles in after the while their become more "steady".
-Then I concentrate on one area and thought about problems of every people (I am one of them after all!) that can be solved. 
-In these case I brainstorm many ideas and after that I starter to "thinkn in the way" od the problem for example I am getting up and browse news. In the bacground I am still hyped on news technologie so ideas how się this technology to what I am currently doing naturalny pop up.
+After read and play with news technology/idea I brainstorm a little bit. After that I starter to "thinkn in the background" on the problems I am aprroching on life for example I am getting up and browse the news. In the background I am still hyped on new technologie so ideas how this technology can be used, to what I am currently doing, naturalny pop up.
 ### In details
 0. (in bacground): brainstorming all the time and writing down all ideas.
 1. Read what about OpenAI.
